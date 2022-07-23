@@ -21,7 +21,7 @@ const CONSTANTS = {
         fourWheeler: 10,
         other: 15
     },
-    // colors
+    // colors codes for colored logs
     color: {
         Black: "\x1b[30m",
         Red: "\x1b[31m",

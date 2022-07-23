@@ -18,7 +18,7 @@ const newVehicle3 = new Vehicle(CONSTANTS.vehicleType.other);
 
 
 /////////////////////////
-//   handler methods   //
+//   handler actions   //
 /////////////////////////
 
 // add vehicles

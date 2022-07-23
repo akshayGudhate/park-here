@@ -6,6 +6,7 @@ const { CONSTANTS } = require('./constants');   // constants
 ///////////////////////////
 
 class Vehicle {
+
     // private fields
     #parkedTimeStamps = [];
 
@@ -19,9 +20,14 @@ class Vehicle {
     //
     // public methods
     //
-    getParkedCount = () => this.#parkedTimeStamps.length;
+
+    // method - get how many times same vehicle parked count
+    getSameVehicleParkedCount = () => this.#parkedTimeStamps.length;
+
+    // method - get latest timestamp when parked vehicle
     getLatestParkedTimeStamp = () => this.#parkedTimeStamps[this.#parkedTimeStamps.length - 1];
 
+    // method - change vehicle park status
     setIsVehicleParked = (isParkedValue) => {
         // set isParked value
         this.isParked = isParkedValue;
@@ -29,6 +35,7 @@ class Vehicle {
         if (isParkedValue) this.#parkedTimeStamps.push(new Date());
     };
 
+    // method - calculate vehicle cost
     getVehicleCurrentCost() {
         let timeSpent = Math.floor(new Date() - this.getLatestParkedTimeStamp()) || 1;
         // vehicle cost + additional time spent cost

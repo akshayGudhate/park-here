@@ -24,7 +24,7 @@
 1. Download project.
 2. Run below commands in root directory.
 3. `yarn` to install all the dependencies.
-4. `yarn dev` to run the project.
+4. `yarn start` to run the project.
 
 
 # Happy Coding!
