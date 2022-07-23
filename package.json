@@ -1,0 +1,13 @@
+{
+  "name": "park-here",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Akshay Gudhate",
+  "license": "ISC",
+  "dependencies": {}
+}
