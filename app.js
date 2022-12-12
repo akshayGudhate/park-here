@@ -8,7 +8,7 @@ const ParkingStore = require('./ParkingStoreClass');    // class - parking store
 //    create store    //
 ////////////////////////
 
-// created user & parking store store
+// created user & parking store
 const newParkingStore = new ParkingStore('Akshay Gudhate', 2);
 
 // create vehicles
